@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: playground
-  revisionHistoryLimit: 3
+  revisionHistoryLimit: 2
   template:
     metadata:
       labels:
